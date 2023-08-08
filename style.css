@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	margin: 20px;
+}
+.container {
+	width: 100%;
+	column-gap: 0.5rem;
+	padding: 1rem;
+}
+
+.container img {
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 0.6rem;
+}
+
+@media only screen and (min-width: 200px) {
+	.container {
+		columns: 2;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.container {
+		columns: 3;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.container {
+		columns: 4;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.container {
+		columns: 5;
+	}
+}
