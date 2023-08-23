@@ -1,2 +1,3 @@
-# pintrest-layout
-simple gallary view like pintrest using simple css
+# Pinterest-layout
+simple gallery view like Pinterest using simple CSS
+https://amit258012.github.io/pintrest-layout/
